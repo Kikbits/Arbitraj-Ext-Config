@@ -1,0 +1,7 @@
+{
+	"bittrex.com": "/[?&]MarketName=[^?&#]*-([^?&#]*)/g",
+	"binance.com": "/[?&]symbol=([^?&#]*)_[^?&#]*/g",
+	"index.bithumb.com": "/[?&]coin=([^?&#]*)/g",
+	"bitfinex.com":"/\/trading\/([^\/?#&].*)(USD$|BTC$|ETH$)/gi",
+	"hitbtc.com": "/\/([^-\/]*)-to-[^-\/]*$/g"
+}
