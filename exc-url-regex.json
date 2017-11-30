@@ -1,7 +1,7 @@
 {
-	"bittrex.com": "/[?&]MarketName=[^?&#]*-([^?&#]*)/g",
-	"binance.com": "/[?&]symbol=([^?&#]*)_[^?&#]*/g",
-	"index.bithumb.com": "/[?&]coin=([^?&#]*)/g",
-	"bitfinex.com":"/\/trading\/([^\/?#&].*)(USD$|BTC$|ETH$)/gi",
-	"hitbtc.com": "/\/([^-\/]*)-to-[^-\/]*$/g"
+	"bittrex.com": "[?&]MarketName=[^?&#]*-([^?&#]*)",
+	"binance.com": "[?&]symbol=([^?&#]*)_[^?&#]*",
+	"index.bithumb.com": "[?&]coin=([^?&#]*)",
+	"bitfinex.com":"/trading/([^\/?#&].*)(USD$|BTC$|ETH$)",
+	"hitbtc.com": "/([^-\/]*)-to-[^-\/]*$"
 }
